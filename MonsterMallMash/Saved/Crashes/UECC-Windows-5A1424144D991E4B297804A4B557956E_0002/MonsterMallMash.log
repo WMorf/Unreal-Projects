@@ -1923,34 +1923,3 @@ BP_Enemy_C.ReceiveBeginPlay
 [2023.10.18-19.58.12:509][151]LogOutputDevice: Error: [Callstack] 0x00007ffa7c7c257d KERNEL32.DLL!UnknownFunction []
 [2023.10.18-19.58.12:509][151]LogOutputDevice: Error: [Callstack] 0x00007ffa7d8aaa78 ntdll.dll!UnknownFunction []
 [2023.10.18-19.58.12:509][151]LogOutputDevice: Error: 
-[2023.10.18-19.58.12:517][151]LogStats:                SubmitErrorReport -  0.000 s
-[2023.10.18-19.58.13:729][151]LogStats:                    SendNewReport -  1.212 s
-[2023.10.18-19.58.13:729][151]LogStats:             FDebug::EnsureFailed -  2.442 s
-[2023.10.18-19.58.13:729][151]PIE: Server logged in
-[2023.10.18-19.58.13:731][151]PIE: Play in editor total start time 2.614 seconds.
-[2023.10.18-19.58.20:611][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.10.18-19.58.20:611][547]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Mall_Test
-[2023.10.18-19.58.20:612][547]LogWorld: UWorld::CleanupWorld for Mall_Test, bSessionEnded=true, bCleanupResources=true
-[2023.10.18-19.58.20:612][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.10.18-19.58.20:626][547]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.10.18-19.58.20:633][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.10.18-19.58.20:700][547]LogAudio: Display: Audio Device unregistered from world 'None'.
-[2023.10.18-19.58.20:700][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
-[2023.10.18-19.58.20:702][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
-[2023.10.18-19.58.20:709][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.10.18-19.58.20:712][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
-[2023.10.18-19.58.20:904][548]LogPlayLevel: Display: Destroying online subsystem :Context_26
-[2023.10.18-19.58.20:932][548]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
-[2023.10.18-19.58.26:105][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Enemy" FILE="D:/GitHub/Unreal-Projects/MonsterMallMash/Content/Blueprints/BP_Enemy.uasset" SILENT=true
-[2023.10.18-19.58.26:114][822]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Enemy
-[2023.10.18-19.58.26:114][822]LogSavePackage: Moving 'D:/GitHub/Unreal-Projects/MonsterMallMash/Saved/BP_Enemy39FD15C646C6EDB098754A910757ABAD.tmp' to 'D:/GitHub/Unreal-Projects/MonsterMallMash/Content/Blueprints/BP_Enemy.uasset'
-[2023.10.18-19.58.26:132][822]AssetCheck: New page: Asset Save: BP_Enemy
-[2023.10.18-19.58.26:132][822]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Enemy.BP_Enemy
-[2023.10.18-19.58.34:166][209]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
-[2023.10.18-19.58.34:221][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Mall_Test" FILE="D:/GitHub/Unreal-Projects/MonsterMallMash/Content/Maps/Mall_Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2023.10.18-19.58.34:288][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
-[2023.10.18-19.58.34:306][209]LogSavePackage: Moving output files for package: /Game/Maps/Mall_Test
-[2023.10.18-19.58.34:306][209]LogSavePackage: Moving 'D:/GitHub/Unreal-Projects/MonsterMallMash/Saved/Mall_TestA581F3874BC0A11DB5334582B6A93E98.tmp' to 'D:/GitHub/Unreal-Projects/MonsterMallMash/Content/Maps/Mall_Test.umap'
-[2023.10.18-19.58.34:316][209]LogFileHelpers: Saving map 'Mall_Test' took 0.097
-[2023.10.18-19.58.34:337][209]AssetCheck: New page: Asset Save: Mall_Test
-[2023.10.18-19.58.34:337][209]LogContentValidation: Display: Validating World /Game/Maps/Mall_Test.Mall_Test
