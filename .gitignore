@@ -71,5 +71,10 @@ Intermediate/*
 Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
+Binaries
+DerivedDataCache
+Intermediate
+/Saved
+Saved
+/DerivedDataCache
 DerivedDataCache/*
-CropoutSampleProject/DerivedDataCache/Compressed.ddp
